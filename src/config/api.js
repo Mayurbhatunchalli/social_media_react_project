@@ -1,8 +1,8 @@
 import axios from "axios";
 
-export const API_BASE_URL = "http://localhost:9090";
+export const API_BASE_URL = "http://scmrsapp-production.up.railway.app";
 
-export const USER_API_URL = "http://localhost:9090";
+export const USER_API_URL = "http://scmrsapp-production.up.railway.app";
 
 const jwtToken = localStorage.getItem("jwt");
 
